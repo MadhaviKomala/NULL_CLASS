@@ -1,15 +1,15 @@
-Task 3: Multi-Modal Chatbot Simulates a multi-modal chatbot handling text and image inputs (image mocked as text description due to resource constraints). Setup
+Task 3: Medical Q&A Chatbot A medical question-answering chatbot using the MedQuAD dataset with a Streamlit UI. Setup
 
-Navigate to the task folder:cd task3_multimodal_chatbot
+Download MedQuAD dataset from https://github.com/abachaa/MedQuAD and place in data/medquad.csv. Navigate to the task folder:cd task4_medical_qa
 
 Install dependencies:pip install -r requirements.txt
 
-Run the tool:python main.py
+Run the tool:streamlit run main.py
 
 Outputs
 
-outputs/generated_response.txt: Generated response. Console: Response text.
+outputs/qa_output.txt: Sample answer. Streamlit UI: Enter questions and view answers.
 
 Notes
 
-Image handling is simulated with text descriptions.
+Download full MedQuAD dataset for comprehensive testing.
