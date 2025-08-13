@@ -1,4 +1,4 @@
-Task 5: Dynamic Knowledge Base Updates a vector database with new information using sentence-transformers. Setup
+Task 1: Dynamic Knowledge Base Updates a vector database with new information using sentence-transformers. Setup
 
 Navigate to the task folder:cd task5_dynamic_knowledge
 
